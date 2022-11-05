@@ -1,7 +1,12 @@
 var carYear = propmt("what year do what the car?");
  carYear = carYear.toUpperCase();
-cosole.log("carYeah = " + carYear);
+cosole.log("carYear = " + carYear);
 var year= "Unknown";
+
+var carMake = propmt("what make do what the car?");
+ carMake = carMAke.toUpperCase();
+cosole.log("carMake = " + carMake);
+
 
 var carModel = propmt("what model do you want the car?);
  carModel = carModel.toUpperCase();
