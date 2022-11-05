@@ -1,1 +1,12 @@
+input {
+  margin: 2rem;
+  display: block;
+}
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
