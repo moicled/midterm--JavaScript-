@@ -55,19 +55,19 @@ input {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 .pink {
-  Background-color: #ff99c8;
+  color: #ff99c8;
 }
 .yellow {
-  background-color: #fcf6bd;
+  color: #fcf6bd;
 }
 .red {
-  background-color: ##008000;
+  color: ##008000;
 }
 .blue {
-  background-color: ##0000CD;
+  color: ##0000CD;
 }
 .purple {
-  background-color: ##800080;
+  color: ##800080;
 }
 h1 {
 margin-left: 70px;
