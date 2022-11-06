@@ -1,7 +1,10 @@
+let firstForm = document.querySelector("#first-form");
+let secondForm = document.querySelector("#second-form");
+let final = document.querySelector("#final");
+
 var carYear = propmt("what year do what the car?");
  carYear = carYear.toUpperCase();
 cosole.log("carYear = " + carYear);
-var year= "Unknown";
 
 var carMake = propmt("what make do what the car?");
  carMake = carMAke.toUpperCase();
@@ -38,3 +41,6 @@ window.onclick = function(event) {
     }
   }
 }
+ secondForm.className = "hide";
+  final.className = "show";
+});
