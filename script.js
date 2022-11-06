@@ -12,6 +12,13 @@ var carModel = propmt("what model do you want the car?);
  carModel = carModel.toUpperCase();
 cosole.log("carModel = " + carModel);
 
+ getPrice = function() {
+            var numVal1 = Number(document.getElementById("price").value);
+            var numVal2 = Number(document.getElementById("discount").value) / 100;
+            var totalValue = numVal1 - (numVal1 * numVal2)
+            document.getElementById("total").value = totalValue.toFixed(2);
+        }
+
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {
