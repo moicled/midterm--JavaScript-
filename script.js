@@ -41,6 +41,11 @@ window.onclick = function(event) {
     }
   }
 }
+
+ for (let i = 1; i <= car; i++) {
+    car = document.querySelector(`#student-${i}`).value;
+    carchoice += `<li>${car}</li>`;
+  }
  secondForm.className = "hide";
   final.className = "show";
 });
