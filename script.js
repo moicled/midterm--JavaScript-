@@ -21,6 +21,7 @@ cosole.log("carModel = " + carModel);
             var totalValue = numVal1 - (numVal1 * numVal2)
             document.getElementById("total").value = totalValue.toFixed(2);
         }
+  let inputList = "";
 
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
